@@ -1,0 +1,248 @@
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.-mt-16 {
+    margin-top: -16px;
+}
+
+.text-4xl {
+    font-size: 2rem;
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.yes-button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.yes-button:hover {
+    background-color: #45a049;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.no-button:hover {
+    background-color: #d32f2f;
+}
+ */
+
+
+
+
+
+ /* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.-mt-16 {
+    margin-top: -16px;
+}
+
+.text-4xl {
+    font-size: 2rem;
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.yes-button,
+.no-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.yes-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #45a049;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #d32f2f;
+}
+
+@media screen and (max-width: 768px) {
+    .text-4xl {
+        font-size: 1.5rem;
+    }
+
+    .yes-button,
+    .no-button {
+        font-size: 14px;
+    }
+
+    #image {
+        max-width: 100%;
+        height: auto;
+    }
+} */
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.-mt-16 {
+    margin-top: -16px;
+}
+
+.text-4xl {
+    font-size: 2rem;
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.yes-button,
+.no-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.yes-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #45a049;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .text-4xl {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .yes-button,
+    .no-button {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .no-button {
+        margin-top: 5px;
+    }
+
+    #image {
+        max-width: 50%;
+        height: auto;}
+}
